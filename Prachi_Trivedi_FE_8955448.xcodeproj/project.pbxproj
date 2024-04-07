@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520620FF2BC5D92600F3479B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520620FE2BC5D92600F3479B /* Weather.swift */; };
+		520F3ECC2BC9F71E00E89ECD /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F3ECB2BC9F71E00E89ECD /* DirectionsViewController.swift */; };
+		527B1FAE2BC4687A000BEF76 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527B1FAD2BC4687A000BEF76 /* Launch Screen.storyboard */; };
+		527B1FAF2BC4687A000BEF76 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527B1FAD2BC4687A000BEF76 /* Launch Screen.storyboard */; };
+		527B1FB02BC4687A000BEF76 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527B1FAD2BC4687A000BEF76 /* Launch Screen.storyboard */; };
+		52F76CFB2BC9A66C009FC2D6 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F76CFA2BC9A66C009FC2D6 /* WeatherViewController.swift */; };
+		52F9C6482BC3518B0067D189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9C6472BC3518B0067D189 /* AppDelegate.swift */; };
+		52F9C64A2BC3518B0067D189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9C6492BC3518B0067D189 /* SceneDelegate.swift */; };
+		52F9C64C2BC3518B0067D189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9C64B2BC3518B0067D189 /* ViewController.swift */; };
+		52F9C64F2BC3518B0067D189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F9C64D2BC3518B0067D189 /* Main.storyboard */; };
+		52F9C6522BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52F9C6502BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.xcdatamodeld */; };
+		52F9C6542BC3518C0067D189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F9C6532BC3518C0067D189 /* Assets.xcassets */; };
+		52F9C6622BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9C6612BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests.swift */; };
+		52F9C66C2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9C66B2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests.swift */; };
+		52F9C66E2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9C66D2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52F9C65E2BC3518C0067D189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F9C63C2BC3518B0067D189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F9C6432BC3518B0067D189;
+			remoteInfo = Prachi_Trivedi_FE_8955448;
+		};
+		52F9C6682BC3518C0067D189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F9C63C2BC3518B0067D189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F9C6432BC3518B0067D189;
+			remoteInfo = Prachi_Trivedi_FE_8955448;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520620FE2BC5D92600F3479B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		520F3ECB2BC9F71E00E89ECD /* DirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		527B1FAD2BC4687A000BEF76 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		52F76CFA2BC9A66C009FC2D6 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		52F9C6442BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prachi_Trivedi_FE_8955448.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F9C6472BC3518B0067D189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52F9C6492BC3518B0067D189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52F9C64B2BC3518B0067D189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52F9C64E2BC3518B0067D189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52F9C6512BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prachi_Trivedi_FE_8955448.xcdatamodel; sourceTree = "<group>"; };
+		52F9C6532BC3518C0067D189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52F9C6582BC3518C0067D189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F9C65D2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prachi_Trivedi_FE_8955448Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F9C6612BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prachi_Trivedi_FE_8955448Tests.swift; sourceTree = "<group>"; };
+		52F9C6672BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prachi_Trivedi_FE_8955448UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F9C66B2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prachi_Trivedi_FE_8955448UITests.swift; sourceTree = "<group>"; };
+		52F9C66D2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prachi_Trivedi_FE_8955448UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52F9C6412BC3518B0067D189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F9C65A2BC3518C0067D189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F9C6642BC3518C0067D189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F9C63B2BC3518B0067D189 = {
+			isa = PBXGroup;
+			children = (
+				52F9C6462BC3518B0067D189 /* Prachi_Trivedi_FE_8955448 */,
+				52F9C6602BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests */,
+				52F9C66A2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests */,
+				52F9C6452BC3518B0067D189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52F9C6452BC3518B0067D189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F9C6442BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.app */,
+				52F9C65D2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests.xctest */,
+				52F9C6672BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52F9C6462BC3518B0067D189 /* Prachi_Trivedi_FE_8955448 */ = {
+			isa = PBXGroup;
+			children = (
+				52F9C6472BC3518B0067D189 /* AppDelegate.swift */,
+				52F9C6492BC3518B0067D189 /* SceneDelegate.swift */,
+				52F9C64B2BC3518B0067D189 /* ViewController.swift */,
+				52F76CFA2BC9A66C009FC2D6 /* WeatherViewController.swift */,
+				520620FE2BC5D92600F3479B /* Weather.swift */,
+				52F9C64D2BC3518B0067D189 /* Main.storyboard */,
+				520F3ECB2BC9F71E00E89ECD /* DirectionsViewController.swift */,
+				527B1FAD2BC4687A000BEF76 /* Launch Screen.storyboard */,
+				52F9C6532BC3518C0067D189 /* Assets.xcassets */,
+				52F9C6582BC3518C0067D189 /* Info.plist */,
+				52F9C6502BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.xcdatamodeld */,
+			);
+			path = Prachi_Trivedi_FE_8955448;
+			sourceTree = "<group>";
+		};
+		52F9C6602BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52F9C6612BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests.swift */,
+			);
+			path = Prachi_Trivedi_FE_8955448Tests;
+			sourceTree = "<group>";
+		};
+		52F9C66A2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests */ = {
+			isa = PBXGroup;
+			children = (
+				52F9C66B2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests.swift */,
+				52F9C66D2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITestsLaunchTests.swift */,
+			);
+			path = Prachi_Trivedi_FE_8955448UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52F9C6432BC3518B0067D189 /* Prachi_Trivedi_FE_8955448 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F9C6712BC3518C0067D189 /* Build configuration list for PBXNativeTarget "Prachi_Trivedi_FE_8955448" */;
+			buildPhases = (
+				52F9C6402BC3518B0067D189 /* Sources */,
+				52F9C6412BC3518B0067D189 /* Frameworks */,
+				52F9C6422BC3518B0067D189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prachi_Trivedi_FE_8955448;
+			productName = Prachi_Trivedi_FE_8955448;
+			productReference = 52F9C6442BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52F9C65C2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F9C6742BC3518C0067D189 /* Build configuration list for PBXNativeTarget "Prachi_Trivedi_FE_8955448Tests" */;
+			buildPhases = (
+				52F9C6592BC3518C0067D189 /* Sources */,
+				52F9C65A2BC3518C0067D189 /* Frameworks */,
+				52F9C65B2BC3518C0067D189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F9C65F2BC3518C0067D189 /* PBXTargetDependency */,
+			);
+			name = Prachi_Trivedi_FE_8955448Tests;
+			productName = Prachi_Trivedi_FE_8955448Tests;
+			productReference = 52F9C65D2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52F9C6662BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F9C6772BC3518C0067D189 /* Build configuration list for PBXNativeTarget "Prachi_Trivedi_FE_8955448UITests" */;
+			buildPhases = (
+				52F9C6632BC3518C0067D189 /* Sources */,
+				52F9C6642BC3518C0067D189 /* Frameworks */,
+				52F9C6652BC3518C0067D189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F9C6692BC3518C0067D189 /* PBXTargetDependency */,
+			);
+			name = Prachi_Trivedi_FE_8955448UITests;
+			productName = Prachi_Trivedi_FE_8955448UITests;
+			productReference = 52F9C6672BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52F9C63C2BC3518B0067D189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					52F9C6432BC3518B0067D189 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					52F9C65C2BC3518C0067D189 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 52F9C6432BC3518B0067D189;
+					};
+					52F9C6662BC3518C0067D189 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 52F9C6432BC3518B0067D189;
+					};
+				};
+			};
+			buildConfigurationList = 52F9C63F2BC3518B0067D189 /* Build configuration list for PBXProject "Prachi_Trivedi_FE_8955448" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52F9C63B2BC3518B0067D189;
+			productRefGroup = 52F9C6452BC3518B0067D189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52F9C6432BC3518B0067D189 /* Prachi_Trivedi_FE_8955448 */,
+				52F9C65C2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests */,
+				52F9C6662BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F9C6422BC3518B0067D189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B1FAE2BC4687A000BEF76 /* Launch Screen.storyboard in Resources */,
+				52F9C6542BC3518C0067D189 /* Assets.xcassets in Resources */,
+				52F9C64F2BC3518B0067D189 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F9C65B2BC3518C0067D189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B1FAF2BC4687A000BEF76 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F9C6652BC3518C0067D189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B1FB02BC4687A000BEF76 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52F9C6402BC3518B0067D189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F9C64C2BC3518B0067D189 /* ViewController.swift in Sources */,
+				52F76CFB2BC9A66C009FC2D6 /* WeatherViewController.swift in Sources */,
+				52F9C6482BC3518B0067D189 /* AppDelegate.swift in Sources */,
+				52F9C64A2BC3518B0067D189 /* SceneDelegate.swift in Sources */,
+				52F9C6522BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.xcdatamodeld in Sources */,
+				520F3ECC2BC9F71E00E89ECD /* DirectionsViewController.swift in Sources */,
+				520620FF2BC5D92600F3479B /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F9C6592BC3518C0067D189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F9C6622BC3518C0067D189 /* Prachi_Trivedi_FE_8955448Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F9C6632BC3518C0067D189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F9C66E2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITestsLaunchTests.swift in Sources */,
+				52F9C66C2BC3518C0067D189 /* Prachi_Trivedi_FE_8955448UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52F9C65F2BC3518C0067D189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52F9C6432BC3518B0067D189 /* Prachi_Trivedi_FE_8955448 */;
+			targetProxy = 52F9C65E2BC3518C0067D189 /* PBXContainerItemProxy */;
+		};
+		52F9C6692BC3518C0067D189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52F9C6432BC3518B0067D189 /* Prachi_Trivedi_FE_8955448 */;
+			targetProxy = 52F9C6682BC3518C0067D189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52F9C64D2BC3518B0067D189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F9C64E2BC3518B0067D189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52F9C66F2BC3518C0067D189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52F9C6702BC3518C0067D189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52F9C6722BC3518C0067D189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Prachi_Trivedi_FE_8955448/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prachitrivedi.Prachi-Trivedi-FE-8955448";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52F9C6732BC3518C0067D189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Prachi_Trivedi_FE_8955448/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prachitrivedi.Prachi-Trivedi-FE-8955448";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52F9C6752BC3518C0067D189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prachitrivedi.Prachi-Trivedi-FE-8955448Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prachi_Trivedi_FE_8955448.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prachi_Trivedi_FE_8955448";
+			};
+			name = Debug;
+		};
+		52F9C6762BC3518C0067D189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prachitrivedi.Prachi-Trivedi-FE-8955448Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prachi_Trivedi_FE_8955448.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prachi_Trivedi_FE_8955448";
+			};
+			name = Release;
+		};
+		52F9C6782BC3518C0067D189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prachitrivedi.Prachi-Trivedi-FE-8955448UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Prachi_Trivedi_FE_8955448;
+			};
+			name = Debug;
+		};
+		52F9C6792BC3518C0067D189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prachitrivedi.Prachi-Trivedi-FE-8955448UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Prachi_Trivedi_FE_8955448;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52F9C63F2BC3518B0067D189 /* Build configuration list for PBXProject "Prachi_Trivedi_FE_8955448" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F9C66F2BC3518C0067D189 /* Debug */,
+				52F9C6702BC3518C0067D189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F9C6712BC3518C0067D189 /* Build configuration list for PBXNativeTarget "Prachi_Trivedi_FE_8955448" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F9C6722BC3518C0067D189 /* Debug */,
+				52F9C6732BC3518C0067D189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F9C6742BC3518C0067D189 /* Build configuration list for PBXNativeTarget "Prachi_Trivedi_FE_8955448Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F9C6752BC3518C0067D189 /* Debug */,
+				52F9C6762BC3518C0067D189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F9C6772BC3518C0067D189 /* Build configuration list for PBXNativeTarget "Prachi_Trivedi_FE_8955448UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F9C6782BC3518C0067D189 /* Debug */,
+				52F9C6792BC3518C0067D189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52F9C6502BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52F9C6512BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.xcdatamodel */,
+			);
+			currentVersion = 52F9C6512BC3518B0067D189 /* Prachi_Trivedi_FE_8955448.xcdatamodel */;
+			path = Prachi_Trivedi_FE_8955448.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52F9C63C2BC3518B0067D189 /* Project object */;
+}
